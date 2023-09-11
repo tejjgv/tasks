@@ -1,0 +1,25 @@
+.row_1 {
+    background-color: #04a96d;
+    color: white;
+  }
+  
+  table {
+    width: 800px;
+  }
+  
+  table,
+  th,
+  td {
+    text-align: left;
+    border: 0.5px solid #e8e9eb;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e8e9eb;
+  }
+  
+  td,
+  th {
+    padding: 8px;
+    border: none;
+  }

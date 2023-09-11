@@ -1,0 +1,77 @@
+.box {
+    width: 40%;
+    /* border: 1px solid black; */
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    /* padding: 10px; */
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .imgBox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imgAvatar {
+    width: 25%;
+    height: 20%;
+    border-radius: 50%;
+  }
+  
+  .formDiv {
+    margin-top: 20px;
+  }
+  
+  input:not(.remember) {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .buttonLogin {
+    padding: 0;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: #4cb050;
+    color: white;
+    border: none;
+  }
+  
+  .lastBox {
+    border: 1px solid #eeefef;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+  }
+  
+  .lastBox button {
+    margin-top: 5px;
+    margin-left: 2px;
+    background-color: #f44136;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .lastBox p {
+    margin-right: 20px;
+  }
+  
+  .forgetPass {
+    color: black;
+  }
